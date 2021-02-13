@@ -4,7 +4,11 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:size=10"
+	/* "Terminus:size=10", */
+    /* "SauceCodePro Nerd Font Mono:size=10", */
+	"Noto Sans Mono:size=10",
+	"Noto Sans CJK JP:size=10",
+	"Symbola:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
