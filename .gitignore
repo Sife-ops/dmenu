@@ -5,4 +5,5 @@ dmenu.o
 drw.o
 stest
 stest.o
+tags
 util.o
